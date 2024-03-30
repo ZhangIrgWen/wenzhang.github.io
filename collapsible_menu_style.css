@@ -1,0 +1,60 @@
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the menu icon */
+.menu-icon {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    display: none; /* Hidden by default, shown in small screens */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+nav ul li {
+    padding: 8px;
+    margin-bottom: 1px;
+    background: #ddd;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+/* Style for collapsed menu (hidden by default) */
+#menu {
+    display: none;
+}
+
+/* Media query to show menu icon on smaller screens and adjust menu display */
+@media screen and (max-width: 600px) {
+    .menu-icon {
+        display: block;
+        background: #ccc;
+        text-align: center;
+    }
+    #menu {
+        width: 100%;
+        display: none; /* Keep menu hidden until toggled */
+    }
+    nav ul li {
+        text-align: center;
+        float: none;
+    }
+}
+
+/* Hover effects */
+nav ul li:hover {
+    background: #bbb;
+}

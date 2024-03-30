@@ -1,0 +1,11 @@
+
+/* Style the menu content */
+.menuContent {
+  display: none;
+  overflow: hidden;
+}
+
+/* Style when the menu is active/open */
+.active .menuContent {
+  display: block;
+}

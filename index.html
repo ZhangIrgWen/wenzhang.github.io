@@ -5,36 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
     <link rel="stylesheet" href="basic_style.css">
-    <!-- Link to the collapsible menu CSS -->
-    <link rel="stylesheet" href="collapsibleMenu.css">
 </head>
 <body>
-    <!-- Collapsible Navigation menu -->
-    <div class="collapsibleMenu">
-        <button class="menuButton">Menu</button>
-        <div class="menuContent">
-            <a href="index.html">Home</a>
-            <a href="news.html">News</a>
-            <a href="education.html">Education</a>
-            <a href="projects.html">Projects</a>
-            <a href="publications.html">Publications</a>
-            <a href="awards.html">Awards</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </div>
-
-    <script>
-        // Get the menu button
-        var menuButton = document.querySelector(".menuButton");
-
-        // Listen for a click on the button
-        menuButton.addEventListener("click", function() {
-            // Toggle the "active" class on the menu container
-            this.parentElement.classList.toggle("active");
-        });
-    </script>
-
-
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
     
     <!-- Your existing content -->
